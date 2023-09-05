@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbaar">
+        <div class="logo">
+            <img src="./news logo.jpeg" alt="logo" class="logo">
+        </div>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="navfont">IPL</li>
+                <li class="navfont">Finance</li>
+                <li class="navfont">Politics</li>
+                <li class="navfont">Tech</li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="search..." class="input" id="input"><button id="button"
+                class="button">search</button>
+        </div>
+        <div class="nightmode">
+            <button class="nightbutton" id="nightbutton">Night</button>
+        </div>
+    </div>
+    <main>
+        <div id="newscard" class="newscard">
+
+        </div>
+        <template id="templete-card-news">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/400x200" alt="image" class="card-image" id="card-image">
+                </div>
+                <h3 id="title">This is title</h3>
+                
+                <h4 class="news-source" id="news-source">End</h4>
+                <p class="news-disc" id="news-disc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Laboriosam, iure.</p>
+            </div>
+
+        </template>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html

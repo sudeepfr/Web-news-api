@@ -1,0 +1,182 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.navbaar {
+      display: flex;
+      justify-content: space-between;
+      background: linear-gradient(180deg, rgba(44, 207, 155, 0.5), black);
+      color: white;
+      margin: 30px 0px 30px 20px;
+      width: 100vw;
+      height: 60px;
+      align-items: center;
+
+}
+
+
+
+nav ul li {
+      list-style: none;
+      font-size: 20px;
+}
+
+nav ul li:hover {
+      /* color:rgba(44, 207, 155, 0.5); */
+      cursor: pointer;
+      background-color: #fff;
+      color: black;
+      border-radius: 3px;
+}
+
+.nightmode {
+      margin: 80px;
+
+}
+
+.nightbutton {
+      width: 80px;
+      height: 30px;
+      color: white;
+      border: none;
+      background-color: black;
+      border-radius: 50px;
+      cursor: pointer;
+}
+
+.button {
+      background-color: rgba(44, 207, 155, 0.5);
+      color: white;
+      border: none;
+      width: 90px;
+      height: 30px;
+      cursor: pointer;
+      border-bottom-right-radius: 7px;
+}
+
+.logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+}
+
+.ul {
+      display: flex;
+}
+
+.navfont {
+      margin: 0px 10px 0px 10px;
+      font-size: 20px;
+}
+
+.search {
+      margin-right: 100px;
+      display: flex;
+
+}
+
+.input {
+      height: 30px;
+      width: 190px;
+      border: none;
+      border-top-left-radius: 7px;
+      outline: none;
+
+}
+
+.input:hover {
+      width: 250px;
+      transition: width .3s;
+}
+
+.newscard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: start;
+      row-gap: 20px;
+
+
+}
+
+main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      margin: 0px 0px 0px 30px;
+}
+
+.card {
+      width: 250px;
+      min-height: 280px;
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 10px 0px 10px 15px;
+      cursor: pointer;
+}
+
+.card:hover {
+      transform: translateY(-10px);
+}
+
+.card-image {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+
+}
+
+.news-source {
+      padding: 4px;
+      color: darkkhaki;
+}
+
+@media screen and (max-width: 500px) {
+      .navbaar {
+            margin: 0px 0px 80px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+          
+
+      }
+     .nightmode{
+        margin-top: 10px;
+        position: absolute;
+        top: 8%;
+         left: 45%;
+         
+
+     }
+     .nightbutton{
+        width: 50px;
+     }
+         .ul{
+            margin-right: 152px;
+         }
+       
+         .navfont{
+             font-size: 15px;
+         
+         }
+      .logo {
+            width: 60px;
+            height: 62px;
+      }
+
+      main {
+            margin-left: 50px;
+      }
+
+      .input {
+            border-bottom: 4px solid black;
+            margin-left: 68px;
+      }
+
+      .button {
+            margin: 5px 0px 0px 68px;
+            background: linear-gradient(180deg, rgba(44, 207, 155, 0.5), black);
+      }
+}
